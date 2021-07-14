@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.card-container {
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    background-color: #100e17;
+    padding: 3rem;
+}
+
+.spotify-card {
+    min-width: 250px;
+    height: 500px;
+    border-radius: 16px;
+    background-color: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    transition: 0.2s;
+}
+
+
+
+.spotify-card:not(:first-child) {
+    margin-left: -152px;
+}
+
+.spotify-card:hover {
+    transform: translateY(-1rem);
+}
+
+.spotify-card:hover~.spotify-card{
+    transform: translateX(152px);
+}
+
+
+
+
+.spotify-card-band-name {
+    /*margin-bottom: 1.5rem;*/
+    font-size: 1.75rem;
+    /*font-weight: bold;*/
+}
+
+.card-band-image {
+    width: 180px;
+
+    height: 160px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    /*position: relative;*/
+    margin-left: auto;
+    margin-right: auto;
+
+
+    /*box-shadow: -.2rem .2rem 1rem #1f1c2a;*/
+}
+
+.spotify-card-image-container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+
+}
+
+.card-genre-list {
+    text-transform: capitalize;
+    padding-left: 1rem;
+    list-style-type: none;
+    min-height: 88px;
+}
+
+.card-genre-header {
+    color: #8a8a8a;
+    padding-top: .5rem;
+}
+
+.card-followers {
+    margin-left: 1rem;
+}
+
