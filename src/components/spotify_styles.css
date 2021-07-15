@@ -29,8 +29,6 @@
     transition: 0.2s;
 }
 
-
-
 .spotify-card:not(:first-child) {
     margin-left: -152px;
 }
@@ -43,9 +41,6 @@
     transform: translateX(152px);
 }
 
-
-
-
 .spotify-card-band-name {
     /*margin-bottom: 1.5rem;*/
     font-size: 1.75rem;
@@ -54,15 +49,12 @@
 
 .card-band-image {
     width: 180px;
-
     height: 160px;
     margin-top: 1rem;
     margin-bottom: .5rem;
     /*position: relative;*/
     margin-left: auto;
     margin-right: auto;
-
-
     /*box-shadow: -.2rem .2rem 1rem #1f1c2a;*/
 }
 
@@ -70,7 +62,6 @@
     margin-left: auto;
     margin-right: auto;
     height: 180px;
-
 }
 
 .card-genre-list {
