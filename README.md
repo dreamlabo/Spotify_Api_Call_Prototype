@@ -22,6 +22,7 @@ Basic prototype I built to work with the Spotify Api, which will be utilized in 
       * Spotify rank of the artist/band
   
 The group of cards are initially displayed as a "scrolling card file." (see below)
+
 When a user hovers over an individual card, that specific card is displayed obove the others.
 
 https://user-images.githubusercontent.com/14134064/125729025-fdbe585c-56db-4f1b-b96a-96e5b4df5301.mp4
