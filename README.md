@@ -23,3 +23,9 @@ Basic protype I built to work with the Spotify Api, which will be used in anothe
   
 The group of cards are initially displayed as a "scrolling card file." 
 When a user hovers over an individual card, that specific card is displayed obove the others.
+
+### Individual Card
+![Individual Card](https://raw.githubusercontent.com/dreamlabo/Spotify_Api_Call_Prototype/main/src/photos/CardScreenShot.jpg)
+
+### Display of All Cards
+![FullDisplay](https://raw.githubusercontent.com/dreamlabo/Spotify_Api_Call_Prototype/main/src/photos/FullViewofCards.jpg)
