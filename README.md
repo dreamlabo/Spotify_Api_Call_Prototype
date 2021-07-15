@@ -16,7 +16,7 @@ Basic protype I built to work with the Spotify Api, which will be used in anothe
       * (Artists include Rush, Yes, Gentle Giant, Jethro Tull, Dream Theater, etc.)
   * For each artist, a card displays the following information:
       * Artist/Band name
-      * JPEG og the artist/band
+      * JPEG of the artist/band (provided by spotify)
       * First four genres found in the 'genre' array
       * Number of Spotify users following the band
       * Spotify rank of the artist/band
